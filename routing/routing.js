@@ -32,8 +32,6 @@ const requestRouting = (request, response) => {
 
 // 🏗 Stwórz również logowanie do konsoli informacji, mówiące o typie logowania (ERROR), dacie oraz informację, że żądany url nie istnieje.
 //  };
-
-
 }
 
 module.exports = {
