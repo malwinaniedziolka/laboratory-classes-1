@@ -9,7 +9,6 @@ const productRouting = (request, response) => {
     
 }
 
-
 // 🏗 Stwórz funkcję 'renderAddProductPage', która wyrenderuje stronę dodawania produktu.
 
 // 🏗 Stwórz funkcję 'renderNewProductPage', która wyświetli najnowszy produkt z pliku 'product.txt'.
@@ -19,4 +18,6 @@ const productRouting = (request, response) => {
 // Podpowiedź: fileSystem.writeFile(...);
 // Podpowiedź: response.setHeader("Location", "/product/new");
 
-// 🔧 Wyeksportuj funkcję 'productRouting', aby inne moduł mogły jej używać.
+module.exports = {
+    productRouting
+};
