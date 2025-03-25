@@ -20,7 +20,7 @@ const requestRouting = (request, response) => {
     }
 
     if (url === "/kill"){
-        //aplikacja sie zamyka
+        process.exit();
     }
 
     response.statusCode = 404;
